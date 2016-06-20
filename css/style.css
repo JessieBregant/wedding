@@ -237,17 +237,17 @@ section {
 	width: 100%;
 }
 
-.katyhuff {
+.chrishuff {
  width: 370px;
  height:370px;
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/strom.png') center top no-repeat;
+ background:transparent url('../images/hilary.jpg') center top no-repeat;
 }
 
-.katyhuff:hover {
-   background-image: url('../images/stromicon.jpg');
+.chrishuff:hover {
+   background-image: url('../images/hilaryicon.jpg');
 }
 
 .amgallow {
@@ -256,11 +256,11 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/katy.png') center top no-repeat;
+ background:transparent url('../images/chris.jpg') center top no-repeat;
 }
 
 .amgallow:hover {
-   background-image: url('../images/katyicon.png');
+   background-image: url('../images/chrisicon.jpg');
 }
 
 .hover-effect i {

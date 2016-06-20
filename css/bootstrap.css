@@ -7,6 +7,7 @@
  * goldenrodyellow = f09c03
  * dark orange = d84b00
  * grass green = 5cb85c
+ * dark purple = 3600FF
  */
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
@@ -21,7 +22,7 @@ body {
 article,
 aside,
 details,
-figcaption,
+figcaption,  	
 figure,
 footer,
 header,

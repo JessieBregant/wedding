@@ -35,7 +35,7 @@
 	width: 14%;
 }
 .countdown-section {
-	background: #fff;
+	background: rgba(60,60,60,0.3);
 	color: #ff823e;
 	display: block;
 	float: left;
@@ -46,8 +46,8 @@
 	text-transform: uppercase;
 }
 .countdown-amount {
-	color: #333;
-	font-family: "Open Sans", sans-serif;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
     font-size: 300%;
     font-weight: 900;
 }
