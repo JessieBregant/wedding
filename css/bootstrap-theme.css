@@ -15,6 +15,7 @@
  * dark orange = ff7125
  * orange - eb9316
  * lighter orange =eb9316
+ * dark purple - 190246
  */
 
 .btn-default,
@@ -179,10 +180,10 @@
   background-color: #d13c5c;
 }
 .navbar-default {
-  background-image: -webkit-linear-gradient(top, #e07a90 0%, #ff7125 100%);
-  background-image: linear-gradient(to bottom, #e07a90 0%, #ff7125 100%);
+  background-image: -webkit-linear-gradient(top, #e07a90 0%, #190246 100%);
+  background-image: linear-gradient(to bottom, #e07a90 0%, #190246 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe07a90', endColorstr='#ffff7125', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#190246', endColorstr='#190246', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);

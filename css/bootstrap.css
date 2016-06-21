@@ -7,7 +7,7 @@
  * goldenrodyellow = f09c03
  * dark orange = d84b00
  * grass green = 5cb85c
- * dark purple = 3600FF
+ * dark purple = 190246
  */
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
@@ -3940,8 +3940,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #ff7125;
-  border-color: #ffde25;
+  background-color: #190246;
+  border-color: #190246;
 }
 .navbar-default .navbar-brand {
   color: #ffffff;
@@ -3960,13 +3960,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
-  background-color: #ffde25;
+  background-color: #E8E5EC;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
-  background-color: #ffde25;
+  background-color: #E8E5EC;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -3986,12 +3986,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #ffde25;
+  border-color: #E8E5EC;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #ffde25;
+  background-color: #E8E5EC;
   color: #ffffff;
 }
 @media (max-width: 1200px) {

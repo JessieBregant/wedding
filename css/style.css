@@ -34,7 +34,7 @@ h3,h4,h5,h6 {
 }
 
 h6 {
-	color: #ff823e;
+	color: #190246;
 }
 
 .x {
@@ -190,14 +190,14 @@ section {
 
 .heading span {
 	border: 0;
-	border-top: 1px solid #ff823e;
+	border-top: 1px solid #353535;
 	display: inline-block;
 	margin: 5px 10px;
 	width: 40px;
 }
 
 .heading i {
-	color: #ff823e;
+	color: #190246;
 }
 
 /* MAIN BANNER
@@ -465,7 +465,7 @@ section {
 =========================================================================================*/
 
 #rsvp {
-	background: #6ec06e;
+	background: #353535;
 	padding: 50px;
 	color: #fff;
 }
