@@ -8,6 +8,7 @@
 
 body {
 	overflow-x: hidden;
+	font-family: 'Playfair Display'
 }
 
 .inner {
@@ -16,23 +17,28 @@ body {
 
 h1 {
 	color: #fff;
-	font-family: 'Engagement', cursive;
+	font-family: 'Great Vibes';
 	font-weight: normal;
 	margin: 0;
 }
 
 h2 {
-	font-family: 'Engagement', cursive;
+	font-family: 'Great Vibes';
 	font-weight: normal;
 	margin: 0;
 }
 
-h3,h4,h5,h6 {
+h4,h5,h6 {
 	margin: 3em 0;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
+	font-family: 'Raleway'
 }
-
+h3 {
+	margin: 3em 0;
+	text-transform: capitalize;
+	font-family: 'Great Vibes'
+}
 h6 {
 	color: #190246;
 }
@@ -71,9 +77,9 @@ section {
 }
 
 .btn {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Playfair Display', sans-serif;
 	letter-spacing: 0.3em;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 
 .btn-lg {
@@ -243,7 +249,7 @@ section {
  display:block;
 	display: inline-block;
 	position: relative;
- background:transparent url('../images/hilary.jpg') center top no-repeat;
+ background:transparent url('../images/hilary.jpg') center center no-repeat;
 }
 
 .chrishuff:hover {
@@ -465,8 +471,8 @@ section {
 =========================================================================================*/
 
 #rsvp {
-	background: #353535;
-	padding: 50px;
+	background: #cccccc;
+	<!--padding: 50px;-->
 	color: #fff;
 }
 
@@ -485,10 +491,12 @@ section {
 }
 
 #rsvp .btn {
-	background: #ffde25;
-	color: #222;
+	background: #190246;
+	color: #fff;
 	margin-top: 20px;
 	padding-bottom: 20px;
+	font-family: 'Raleway'; 
+	text-transform: uppercase;
 }
 
 /* REGISTRY
