@@ -169,7 +169,7 @@ section {
 }
 
 .navbar-brand {
-	padding: 20px 15px;
+	<--!padding: 20px 15px;-->
 	font-size: auto;
 	line-height: auto;
 }
@@ -219,7 +219,7 @@ section {
 }
 
 .hover-effect span {
-	background: #ff823e;
+	background: #5a33a5;
 	color: #fff;
 	display: block;
 	height: 0;
