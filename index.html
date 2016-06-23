@@ -8,12 +8,8 @@
 		<title>Hilary &amp; Chris - October 8, 2016</title>
 		<link rel="shortcut icon" href="images/favicon.png">
 
-		<!-- Pace Loader -->
-		<script src="js/pace.min.js"></script>
-  		<link href="css/pace.css" rel="stylesheet" />
-
 		<!-- Bootstrap -->
-		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 
 		<!-- Custom CSS -->
 		<link href="css/style.css" rel="stylesheet">
@@ -24,15 +20,6 @@
 		<!-- Countdown CSS -->
 		<link href="css/countdown.css" rel="stylesheet">
 
-		<!-- Owl Carousel stylesheet -->
-		<link href="css/owl.carousel.css" rel="stylesheet">
-
-		<!-- Owl Carousel Default Theme -->
-		<link href="css/owl.theme.css" rel="stylesheet">
-
-		<!-- Fancybox -->
-		<link href="css/jquery.fancybox.css" rel="stylesheet">
-
 		<!-- Google Fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Engagement" rel="stylesheet">
 		<link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -40,10 +27,10 @@
 		<link href="https://fonts.googleapis.com/css?family=Alex+Brush|Cormorant+Infant|Dancing+Script|Great+Vibes|Katibeh|Playfair+Display|Poiret+One|Prata|Sacramento|Tangerine" rel="stylesheet">
 
 		<!-- Font Awesome Icons -->
-		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
 
-		<!-- Pretty Box -->
-		<link href="css/prettyPhoto.css" rel="stylesheet">
+		<!-- Lightbox -->
+		<link href="css/lightbox.min.css" rel="stylesheet">
 
 		<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -57,7 +44,7 @@
 
 		<a id="home"></a>
 
-		<!-- ========== BANNER START ========== -->
+		<!-- Header -->
 
 		<div id="slides">
 			<div class="slides-container">
@@ -73,26 +60,23 @@
 				<img src="images/fban10.jpg" alt="" />
 				<img src="images/fban11.jpg" alt="" />
 				<img src="images/fban12.jpg" alt="" />
-				<!-- <img src="images/fban7.jpg" alt="" />
-				 <img src="images/fban1.jpg" alt="" />
-				<img src="images/fban4.jpg" alt="" /> -->
+				<img src="images/fban13.jpg" alt="" />
+				<img src="images/fban14.jpg" alt="" />
+				<img src="images/fban15.jpg" alt="" />
 			</div>
-			<div class="tint">
-				<div class="welcome text-center" data-scroll-reveal="enter from the top after 2s">
-					<h1>Hilary &amp; Chris</h1>
-					<!--<p>are getting married</p>-->
-					<p><span></span><i class="fa fa-heart"></i><span></span></p>
+			<div class="slide-text-container">
+				<div class="slide-text text-center" data-scroll-reveal="enter from the top after 1s">
+					<h1 id="title">Hilary &amp; Chris</h1>
+					<p><span class="hr"></span><span class="fa fa-heart"></span><span class="hr"></span></p>
 					<p>October 8, 2016</p>
 				</div>
 			</div>
-			<div class="countdown" data-scroll-reveal="enter from the bottom after 2.5s"></div>
+			<div class="countdown" data-scroll-reveal="enter from the bottom after 1.5s"></div>
 		</div>
 
-		<!-- ========== BANNER END ========== -->
+		<!-- Navbar -->
 
-		<!-- ========== MENU START ========== -->
-
-		<div class="navbar navbar-default">
+		<div class="navbar navbar-wedding">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -100,15 +84,17 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="https://twitter.com/search?q=%23hilaryandchris">#hilaryandchris<!--<img src="images/logo.png" alt="" class="img-responsive" />--></a>
+					<ul class="nav navbar-nav">
+						<li><a href="https://twitter.com/search?q=%23hilaryandchris">#hilaryandchris</a></li>
+					</ul>
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#about">About Us</a></li>
-						<li><a href="#explain">Intro</a></li>
+						<li><a href="#ourstory">Our Story</a></li>
 						<li><a href="#events">Events</a></li>
-						<li><a href="#accommodation">Accommodation</a></li>
-						<li><a href="#location">Location</a></li>
+						<li><a href="#accommodations">Accommodations</a></li>
+						<li><a href="#map">Location</a></li>
 						<li><a href="#gallery">Gallery</a></li>
 						<li><a href="#rsvp">RSVP</a></li>
 						<li><a href="#registry">Registries</a></li>
@@ -117,43 +103,33 @@
 			</div>
 		</div>
 
-		<!-- ========== MENU END ========== -->
-
-		<!-- ========== ABOUT US START ========== -->
+		<!-- Portraits -->
 
 		<section id="about">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-sm-12 heading" data-scroll-reveal>
 						<h2>About Us</h2>
-						<p><span></span><i class="fa fa-heart"></i><span></span></p>
+						<p><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-6" data-scroll-reveal="enter from the left">
-							<a href="" class="chrishuff img-circle img-responsive"></a>
-							<!--<img src="images/hilary.jpg" class="img-responsive img-circle chrishuff" alt="" /> <span class="img-circle">
-							</span>-->
-
+							<a href="" class="hilportrait img-circle img-responsive"></a>
 						<h3>Hilary Anne Wilson</h3>
 						<p>is a social worker who specializes in helping those with mental health and substance abuse issues. Besides Chris, she loves their dog Jax, The Golden Girls, and Tinkerbell. </p>
 						<ul class="social-icons">
-							<li><a href="mailto:hilaryawilson1@gmail.com?Subject=Wedding" target="_top"><i class="fa fa-envelope"></i></a></li>
+							<li><a href="mailto:hilaryawilson1@gmail.com?Subject=Wedding" target="_top"><span class="fa fa-envelope"></span></a></li>
 						</ul>
-						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span></span></div>
+						<div class="mobile-divider"><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></div>
 					</div>
 					<div class="col-sm-6" data-scroll-reveal="enter from the right after 0.5s">
-							<!--<img src="images/chris.jpg" class="img-responsive img-circle" alt="" />
-							<span class="img-circle">
-							</span>
-							-->
-							<a href="" class="amgallow img-circle img-responsive"></a>
-
+							<a href="" class="chrisportrait img-circle img-responsive"></a>
 						<h3>Christopher Wayne Lawton</h3>
                                                 <p>is an account manager for a non-profit mental health clinic. Besides Hilary, he loves their dog Jax, Magic the Gathering, and Dumbo.  </p>
 						<ul class="social-icons">
 					
-							<li><a href="mailto:chrislawton@gmail.com?Subject=Wedding" target="_top"><i class="fa fa-envelope"></i></a></li>
+							<li><a href="mailto:chrislawton@gmail.com?Subject=Wedding" target="_top"><span class="fa fa-envelope"></span></a></li>
 							
 						</ul>
 					</div>
@@ -161,16 +137,14 @@
 			</div>
 		</section>
 
-		<!-- ========== ABOUT US END ========== -->
+		<!-- Story -->
 
-		<!-- ========== EXPLAIN START ========== -->
-
-		<section id="explain" style="background: #cccccc;">
+		<section id="ourstory" class="lightgraysection">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-sm-12 heading" data-scroll-reveal>
                                           <h2>The Story of Us</h2>
-						<p><span></span><i class="fa fa-heart"></i><span></span></p>
+						<p><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></p>
 					</div>
 				</div>
 				<div class="row">
@@ -180,137 +154,27 @@
 
                                           
                                           </p>
-                                          <p>Our Wedding Hashtag: <a
-                                            href="https://twitter.com/search?q=%23hilaryandchris">#hilaryandchris
-                                            </a></p>
+                                          <p>Our Wedding Hashtag: <a href="https://twitter.com/search?q=%23hilaryandchris">#hilaryandchris</a></p>
 
-						<div class="mobile-divider x"><span></span><i class="fa fa-heart"></i><span></span></div>
+						<div class="mobile-divider"><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- ========== EXPLAIN END ========== -->
-
-		<!-- ========== PEOPLE START ========== -->
-		<!--
-		<section id="people">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 heading text-center" data-scroll-reveal>
-						<h2>Most Important People</h2>
-						<p><span></span><i class="fa fa-heart"></i><span></span></p>
-					</div>
-				</div>
-				<div class="row row-margin">
-					<div class="col-sm-3 text-right" data-scroll-reveal="enter from the left after 0.25s">
-						<h5>Name</h5>
-						<h6>Best man</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra nunc, non scelerisque ligula. Cras vel justo nulla. Vestibulum a sollicitudin metus, faucibus fermentum leo.</p>
-					</div>
-					<div class="col-sm-3" data-scroll-reveal="enter from the left after 0.25s">
-						<a href="person1.html" class="hover-effect">
-							<img src="http://placehold.it/270x270.jpg" class="img-responsive img-circle" alt="" />
-							<span class="img-circle">
-								<i class="fa fa-link fa-3x"></i>
-							</span>
-						</a>
-						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span></span></div>
-					</div>
-					<div class="col-sm-3" data-scroll-reveal="enter from the right after 0.5s">
-						<a href="person2.html" class="hover-effect">
-							<img src="http://placehold.it/270x270.jpg" class="img-responsive img-circle" alt="" />
-							<span class="img-circle">
-								<i class="fa fa-link fa-3x"></i>
-							</span>
-						</a>
-					</div>
-					<div class="col-sm-3" data-scroll-reveal="enter from the right after 0.5s">
-						<h5>Name</h5>
-						<h6>Bridemaid</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra nunc, non scelerisque ligula. Cras vel justo nulla. Vestibulum a sollicitudin metus, faucibus fermentum leo.</p>
-						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span></span></div>
-					</div>
-				</div>
-				<div class="row row-margin">
-					<div class="col-sm-3 text-right" data-scroll-reveal="enter from the left after 0.25s">
-						<h5>Name</h5>
-						<h6>Groom's Father</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra nunc, non scelerisque ligula. Cras vel justo nulla. Vestibulum a sollicitudin metus, faucibus fermentum leo.</p>
-					</div>
-					<div class="col-sm-3" data-scroll-reveal="enter from the left after 0.25s">
-						<a href="person1.html" class="hover-effect">
-							<img src="http://placehold.it/270x270.jpg" class="img-responsive img-circle" alt="" />
-							<span class="img-circle">
-								<i class="fa fa-link fa-3x"></i>
-							</span>
-						</a>
-						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span></span></div>
-					</div>
-					<div class="col-sm-3" data-scroll-reveal="enter from the right after 0.5s">
-						<a href="person2.html" class="hover-effect">
-							<img src="http://placehold.it/270x270.jpg" class="img-responsive img-circle" alt="" />
-							<span class="img-circle">
-								<i class="fa fa-link fa-3x"></i>
-							</span>
-						</a>
-					</div>
-					<div class="col-sm-3" data-scroll-reveal="enter from the right after 0.5s">
-						<h5>Name</h5>
-						<h6>Bride's Father</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra nunc, non scelerisque ligula. Cras vel justo nulla. Vestibulum a sollicitudin metus, faucibus fermentum leo.</p>
-						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span></span></div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3 text-right" data-scroll-reveal="enter from the left after 0.25s">
-						<h5>Name</h5>
-						<h6>Groom's Mother</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra nunc, non scelerisque ligula. Cras vel justo nulla. Vestibulum a sollicitudin metus, faucibus fermentum leo.</p>
-					</div>
-					<div class="col-sm-3" data-scroll-reveal="enter from the left after 0.25s">
-						<a href="person1.html" class="hover-effect">
-							<img src="http://placehold.it/270x270.jpg" class="img-responsive img-circle" alt="" />
-							<span class="img-circle">
-								<i class="fa fa-link fa-3x"></i>
-							</span>
-						</a>
-						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span></span></div>
-					</div>
-					<div class="col-sm-3" data-scroll-reveal="enter from the right after 0.5s">
-						<a href="person2.html" class="hover-effect">
-							<img src="http://placehold.it/270x270.jpg" class="img-responsive img-circle" alt="" />
-							<span class="img-circle">
-								<i class="fa fa-link fa-3x"></i>
-							</span>
-						</a>
-					</div>
-					<div class="col-sm-3" data-scroll-reveal="enter from the right after 0.5s">
-						<h5>Name</h5>
-						<h6>Bride's Mother</h6>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra nunc, non scelerisque ligula. Cras vel justo nulla. Vestibulum a sollicitudin metus, faucibus fermentum leo.</p>
-						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span></span></div>
-					</div>
-				</div>
-			</div>
-		</section>
-		-->
-
-		<!-- ========== PEOPLE END ========== -->
-
-		<!-- ========== EVENTS START ========== -->
+		<!-- Schedule -->
 
 		<section id="events">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-sm-12 heading" data-scroll-reveal>
 						<h2>Events</h2>
-						<p><span></span><i class="fa fa-heart"></i><span></span></p>
+						<p><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-4">
-						<div class="blog-short">
+						<div class="event">
                                                         <img src= "images/Illini-Country-Club-photo-1.jpg" class="img-responsive"  alt="" />
 							<h5>Rehearsal Dinner</h5>
                                                         <h6>October 7, 2016
@@ -322,7 +186,7 @@
 						</div>
 					</div>
 					<div class="col-sm-4">
-						<div class="blog-short">
+						<div class="event">
                                                   <img src="images/wpc.jpg" class="img-responsive" alt="" />
 							<h5>Wedding Ceremony</h5>
                                                         <h6>October 8, 2016<br/>
@@ -332,7 +196,7 @@
 						</div>
 					</div>
 					<div class="col-sm-4">
-						<div class="blog-short">
+						<div class="event">
                                                   <img src="images/sang.jpg" class="img-responsive" alt="" />
                                                         <h5>Wedding Reception</h5>
                                                         <h6>October 8, 2016
@@ -343,43 +207,18 @@
                                                         served.</p>
 						</div>
 					</div>
-					<script> /* <div class="col-sm-4">
-						<div class="blog-short">
-                                                        <img src="http://media.chicagomag.com//images/Dish/LaPetiteFolie.jpg?ver=1380295903" class="img-responsive" alt="" />
-                                                        <h5>Farewell Brunch</h5>
-                                                        <h6>May 17th, 2015
-                                                        <br/>10:00 AM - 2:00 PM</h6>
-                                                        <p><a 
-                                                                href="http://www.lapetitefolie.com/">La 
-                                                                Petite Folie</a> 
-                                                        <br/>1504 E. 55th St.,
-                                                        <br/>Chicago, IL 60615</p>
-                                                        <p>The morning after 
-                                                        the wedding, please join us for a 
-                                                        liesurely brunch, 
-                                                        generously hosted by
-                                                        Diane Donovan, Jan
-                                                        hilary, Terry Jordan, 
-                                                        Mark Borman, and Laurie 
-                                                        Laner.</p> 
-
-						</div>
-					</div> */
-					</script>
 				</div>
 			</div>
 		</section>
 
-		<!-- ========== EVENTS END ========== -->
+		<!-- Accomodations -->
 
-		<!-- ========== ACOOMMODATION START ========== -->
-
-                <section id="accommodation" style="background: #cccccc;">
+                <section id="accommodations" class="lightgraysection">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 heading text-center" data-scroll-reveal>
 						<h2>Accommodations & Transportation</h2>
-						<p><span></span><i class="fa fa-heart"></i><span></span></p>
+						<p><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></p>
 					</div>
 				</div>
 
@@ -387,7 +226,7 @@
 
 					<div class="col-sm-3 text-right" data-scroll-reveal="enter from the left after 0.25s">
 						<h5>Hotel Name</h5>
-						<h6><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h6>
+						<h6><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span></h6>
                                                 <p><a
                                                   href="maplink">Address</a></p>
 
@@ -399,13 +238,13 @@
 					</div>
 
 					<div class="col-sm-3" data-scroll-reveal="enter from the left after 0.25s">
-                                          <a href="http://www.chicagosouthuniversity.place.hyatt.com/en/hotel/home.html" class="hover-effect">
+                                          <a href="index.html" class="hover-effect">
 							<img src="images/hotel.png" class="img-responsive img-circle" alt="" />
 							<span class="img-circle">
-                                                          <i class="link"></i>
+                                                          <span class="link"></span>
 							</span>
 						</a>
-						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span></span></div>
+						<div class="mobile-divider"><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></div>
 					</div>
 					
 				
@@ -413,30 +252,28 @@
                                           <a href="link" class="hover-effect">
 							<img src="images/spi.gif" class="img-responsive img-circle" alt=""/>
 							<span class="img-circle">
-								<i class="linky"></i>
+								<span class="linky"></span>
 							</span>
 						</a>
 					</div>
 
 					<div class="col-sm-3" data-scroll-reveal="enter from the right after 0.5s">
 						<h5>Travel</h5>
-						<h6><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star">
-						</i><i class="fa fa-star"></i><i class="fa fa-star"></i></h6>
+						<h6><span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star"></span>
+						<span class="fa fa-star"></span><span class="fa fa-star"></span></h6>
 						<p>Here is some travel information.</p>
-						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span>
+						<div class="mobile-divider"><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></div>
 						</span></div>
 					</div> 
 				</div>
 			</div>
 		</section>
 
-		<!-- ========== ACCOMMODATION END ========== -->
-
-                <!-- ========== LOCATION START ========== -->
-                <section id="location">
+                <!-- Map -->
+                <section id="map">
 
 
-                        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoRMxiPsqJ9SUuaK1KsCAjd3gqnecjlBw&amp;sensor=true"></script>
+                        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoRMxiPsqJ9SUuaK1KsCAjd3gqnecjlBw"></script>
                         <script type="text/javascript">
 
                                 function initialize() {
@@ -529,114 +366,145 @@
                         <a href="https://www.google.com/maps/d/edit?mid=zwJ5Sc8HIDN4.kHElukijiprI">
                         <div id="map-canvas"></div>
                       </a>
-                        <!-- ========== LOCATION END ========== -->
+		</section>
 
-
-		<!-- ========== GALLERY START ========== -->
+		<!-- Gallery -->
 
 		<section id="gallery">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-sm-12 heading" data-scroll-reveal>
 						<h2>Gallery</h2>
-						<p><span></span><i class="fa fa-heart"></i><span></span></p>
+						<p><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></p>
 					</div>
 				</div>
 				<div class="row" data-scroll-reveal>
 					<ul class="gallery">
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal1.jpg" class="fancybox hover-effect" data-fancybox-group="group">
-								<img src="images/mgal1.jpg" class="img-rounded img-responsive" alt="" />
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal1.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal1.jpg" class="img-rounded img-responsive" alt="" />
 								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
+									<span class="fa fa-search fa-3x"></span>
 								</span>
 							</a>
 						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal2.jpg" class="fancybox hover-effect" data-fancybox-group="group">
-								<img src="images/mgal2.jpg" class="img-rounded img-responsive" alt="" />
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal2.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal2.jpg" class="img-rounded img-responsive" alt="" />
 								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
+									<span class="fa fa-search fa-3x"></span>
 								</span>
 							</a>
 						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal3.jpg" class="fancybox hover-effect" data-fancybox-group="group">
-								<img src="images/mgal3.jpg" class="img-rounded img-responsive" alt="" />
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal3.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal3.jpg" class="img-rounded img-responsive" alt="" />
 								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
+									<span class="fa fa-search fa-3x"></span>
 								</span>
 							</a>
 						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal6.jpg" class="fancybox hover-effect" data-fancybox-group="group">
-								<img src="images/mgal6.jpg" class="img-rounded img-responsive" alt="" />
-								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
-								</span>
-							</a>
-						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal7.jpg" class="fancybox hover-effect" data-fancybox-group="group">
-								<img src="images/mgal7.jpg" class="img-rounded img-responsive" alt="" />
-								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
-								</span>
-							</a>
-						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal11.jpg" class="fancybox hover-effect" data-fancybox-group="group">
-								<img src="images/mgal11.jpg" class="img-rounded img-responsive" alt="" />
-								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
-								</span>
-							</a>
-						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal8.jpg" class="fancybox hover-effect" data-fancybox-group="group">
-								<img src="images/mgal8.jpg" class="img-rounded img-responsive" alt="" />
-								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
-								</span>
-							</a>
-						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal9.jpg" class="fancybox hover-effect" data-fancybox-group="group">
-								<img src="images/mgal9.jpg" class="img-rounded img-responsive" alt="" />
-								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
-								</span>
-							</a>
-						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal10.jpg" class="fancybox hover-effect" data-fancybox-group="group">
-								<img src="images/mgal10.jpg" class="img-rounded img-responsive" alt="" />
-								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
-								</span>
-							</a>
-						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal5.jpg" class="fancybox hover-effect" data-fancybox-group="group">
-								<img src="images/mgal5.jpg" class="img-rounded img-responsive" alt="" />
-								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
-								</span>
-							</a>
-						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal4.jpg" class="fancybox hover-effect" data-fancybox-group="group">
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal4.jpg" class="hover-effect" data-lightbox="wedding-gallery">
 								<img src="images/gal4.jpg" class="img-rounded img-responsive" alt="" />
 								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
+									<span class="fa fa-search fa-3x"></span>
 								</span>
 							</a>
 						</li>
-						<li class="col-xs-4 col-sm-3 col-md-2">
-							<a href="images/gal12.jpg" class="fancybox hover-effect" data-fancybox-group="group">
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal5.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal5.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal6.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal6.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal7.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal7.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal8.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal8.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal9.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal9.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal10.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal10.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal11.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal11.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal12.jpg" class="hover-effect" data-lightbox="wedding-gallery">
 								<img src="images/gal12.jpg" class="img-rounded img-responsive" alt="" />
 								<span class="img-rounded">
-									<i class="fa fa-search fa-3x"></i>
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal13.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal13.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal14.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal14.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal15.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal15.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
+								</span>
+							</a>
+						</li>
+						<li class="col-xs-6 col-sm-4 col-md-2">
+							<a href="images/gal16.jpg" class="hover-effect" data-lightbox="wedding-gallery">
+								<img src="images/gal16.jpg" class="img-rounded img-responsive" alt="" />
+								<span class="img-rounded">
+									<span class="fa fa-search fa-3x"></span>
 								</span>
 							</a>
 						</li>
@@ -645,24 +513,21 @@
 			</div>
 		</section>
 
-		<!-- ========== GALLERY END ========== -->
-
-
-                  <!-- ========== RSVP START ========== -->
-                  <section id="rsvp" style="background: #222">
+                  <!-- RSVP -->
+                  <section id="rsvp" class="darkgraysection">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-sm-12 heading" data-scroll-reveal>
-                                        <h2 style="color: #fff">R.S.V.P.</h2>
-                                        <p><span></span><i class="fa fa-heart"></i><span></span></p>
+                                        <h2>R.S.V.P.</h2>
+                                        <p><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></p>
                                 </div>
 
                                 <p>Please fill out the form below
                                 </p>
 						<div class="item">
-                                                  <a href="link">
+                                                  <a href="links">
                                                     <button type="button" class="btn btn-default btn-lg">
-                                                      <span></span>Go To The Form
+                                                      <span class="fa fa-send-o" aria-hidden="true"></span><span class="btntext">Go To The Form</span>
                                                     </button>
                                                   </a>
 						</div>
@@ -671,18 +536,14 @@
                               </div>
         </section>
 
-			<!-- ========== RSVP END ========== -->
+		<!-- Registry -->
 
-
-
-		<!-- ========== REGISTRY START ========== -->
-
-		<section id="registry" style="background: #cccccc;">
+		<section id="registry" class="lightgraysection">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-sm-12 heading" data-scroll-reveal>
                                         <h2>Registries</h2>
-                                        <p><span></span><i class="fa fa-heart"></i><span></span></p>
+                                        <p><span class="minihr"></span><span class="fa fa-heart"></span><span class="minihr"></span></p>
 
                                         <p></p>
 						<div class="item">
@@ -694,84 +555,34 @@
 			</div>
 		</section>
 
-		<!-- ========== REGISTRY END ========== -->
+		<!-- Javascript Includes -->
 
-		<!-- ========== PLAYLIST START ========== -->
-		<!--
-		<section id="playlist" style="background: #f5f4ec;">
-			<div class="container text-center">
-				<div class="row">
-					<div class="col-sm-12 heading" data-scroll-reveal>
-						<h2>The Playlist</h2>
-						<p><span></span><i class="fa fa-heart"></i><span></span></p>
-					</div>
-				</div>
-
-			<iframe src="https://embed.spotify.com/?uri=spotify:user:chrishuff:playlist:1MNn1WSQ0mFtUHFVchy4kw" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-			</div>
-		</section>
-		-->
-		<!-- ========== PLAYLIST END ========== -->
-
-		<!-- ========== FOOTER START ========== -->
-
-		<footer>
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-sm-12" data-scroll-reveal>	
-					</div>
-				</div>
-			</div>
-		</footer> 
-
-		<!-- ========== FOOTER END ========== -->
-
-		<!-- Modernizr Plugin -->
+		<!-- Modernizr Plugin (Makes things work on older browsers) -->
 		<script src="js/modernizr.custom.97074.js"></script>
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery-1.10.2.min.js"></script>
+		<!-- jQuery < 3.0 (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery-2.2.4.min.js"></script>
 
 		<!-- Bootstrap Plugins -->
 		<script src="js/bootstrap.min.js"></script>
 
-		<!-- Retina Plugin -->
-		<script src="js/retina-1.1.0.min.js"></script>
-
-		<!-- Superslides Plugin -->
+		<!-- Superslides Plugin (Slideshow at the top) -->
 		<script src="js/jquery.easing.1.3.js"></script>
 		<script src="js/jquery.animate-enhanced.min.js"></script>
 		<script src="js/jquery.superslides.js"></script>
 
-		<!-- Countdown Plugin -->
+		<!-- Countdown Plugin (Countdown at the top) -->
 		<script src="js/jquery.plugin.min.js"></script>
 		<script src="js/jquery.countdown.min.js"></script>
 
-		<!-- Scrolly Plugin -->
-		<script src="js/jquery.scrolly.js"></script>
+		<!-- Lightbox Plugin (Fancy gallery lightbox) -->
+		<script src="js/lightbox.min.js"></script>
 
-		<!-- CountTo Plugin -->
-		<script src="js/jquery.countTo.js"></script>
-
-		<!-- Owl Carousel Plugin -->
-		<script src="js/owl.carousel.js"></script>
-
-		<!-- Fancybox Plugin -->
-		<script src="js/jquery.fancybox.js"></script>
-
-		<!-- Scroll Reveal Plugin -->
+		<!-- Scroll Reveal Plugin (Lets things fade in/out) -->
 		<script src="js/scrollReveal.js"></script>
 
-		<!-- jQuery Settings -->
+		<!-- Custom Site Settings -->
 		<script src="js/settings.js"></script>
 
-		<!-- PrettyPhoto Settings -->
-		<script src="js/jquery.prettyPhoto.js"></script>
-
-		<script type="text/javascript" charset="utf-8">
-		  $(document).ready(function(){
-		    $("a[rel^='prettyPhoto']").prettyPhoto();
-		  });
-		</script>
 	</body>
 </html>
