@@ -294,9 +294,6 @@ section.darkgraysection {
 	border: 1px solid #333;
 	border-radius: 50%;
 	display: block;
-	height: 30px;
-	line-height: 30px;
-	width: 30px;
 }
 
 .social-icons a:hover {
@@ -304,6 +301,9 @@ section.darkgraysection {
 	color: #ff823e;
 }
 
+.social-icons span {
+	padding: 7px;
+}
 
 
 
