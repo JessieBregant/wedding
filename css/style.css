@@ -167,6 +167,15 @@ img {
 	background: #190246;
 }
 
+.navbar-wedding .navbar-brand {
+	padding: 0;
+}
+
+.navbar-wedding .navbar-brand a {
+	padding: 15px;
+	font-size 14px;
+}
+
 /* *********************************************
         Section Headings
    ********************************************* */
@@ -311,11 +320,11 @@ section.darkgraysection {
         Accomodations
    ********************************************* */
 
-#accommodation h5 {
+#accommodations h5 {
 	margin: 0 0 8px;
 }
 
-#accommodation h6 {
+#accommodations h6 {
 	margin: 0 0 15px;
 }
 
@@ -450,6 +459,10 @@ section.darkgraysection {
 		white-space: normal;
 	}
 
+	.navbar-toggle span {
+		background: #fff;
+	}
+
 	.text-left,
 	.text-right,
 	.col-sm-3 {
@@ -464,7 +477,7 @@ section.darkgraysection {
 		text-align: center;
 	}
 
-	.mobile-divider span {
+	.mobile-divider .minihr {
 		border-top: 1px solid #000;
 		display: inline-block;
 		margin: 4px 10px;
@@ -507,7 +520,7 @@ section.darkgraysection {
 		padding: 0 0 10px !important;
 	}
 
-	#accommodation h5 {
+	#accommodations h5 {
 		margin: 20px 0 8px;
 	}
 
