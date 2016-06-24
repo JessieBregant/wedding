@@ -321,27 +321,32 @@
 
 
                                 var weddingplaces = [
-                                        ['Illini Country Club (Rehearsal Dinner)', 39.78352,-89.68328,17],
-                                        ['Westminster Presbyterian Church (Wedding Ceremony)', 39.79664,-89.66418,17],
-                                        ['Sangamo Club (Wedding Reception)', 39.80087,-89.65217, 17]
+                                        ['Illini Country Club (Rehearsal Dinner)', 39.78352,-89.68328,17, 
+					 'https://mt.googleapis.com/vt/icon/name=icons/onion/1085-biz-restaurant-generic.png&scale=1.0',
+					 '<p>Illini Country Club</p><p>1601 Illini Rd, Springfield, IL 62704</p>'],
+                                        ['Westminster Presbyterian Church (Wedding Ceremony)', 39.79664,-89.66418,17, 
+					 'https://mt.googleapis.com/vt/icon/name=icons/onion/1315-poi-religious-christian.png&scale=1.0',
+					 '<p>Westminster Presbyterian Church</p><p>533 S Walnut St, Springfield, IL 62704</p>'],
+                                        ['Sangamo Club (Wedding Reception)', 39.80087,-89.65217, 17, 
+					 'https://mt.googleapis.com/vt/icon/name=icons/onion/1293-poi-music.png&scale=1.0',
+					 '<p>Sangamo Club</p><p>227 E Adams St, Springfield, IL 62701</p>']
                                 ];
 
                                 function setMarkers(map, locations, markerpic) {
                                         // Add markers to the map
-                                        var image = {
-                                                url: markerpic,
-                                                // This marker is 42 pixels wide by 68 pixels tall.
-                                                size: new google.maps.Size(21,34),
-                                                // The origin for this image is 0,0.
-                                                //origin: new google.maps.Point(0,0),
-                                                origin: null,
-                                                // The anchor for this image is the base of the pin at 20,42.
-                                                //anchor: new google.maps.Point(20, 42)
-                                                anchor: null
-                                        };
-
                                         for (var i = 0; i < locations.length; i++) {
                                                 var place = locations[i];
+                                        	var image = {
+                                                	url: place[4],
+                                                	// This marker is 42 pixels wide by 68 pixels tall.
+                                                	size: new google.maps.Size(21,34),
+                                                	// The origin for this image is 0,0.
+                                                	//origin: new google.maps.Point(0,0),
+                                                	origin: null,
+                                                	// The anchor for this image is the base of the pin at 20,42.
+                                                	//anchor: new google.maps.Point(20, 42)
+                                                	anchor: null
+                                        	};
                                                 var myLatLng = new google.maps.LatLng(place[1], place[2]);
                                                 var marker = new google.maps.Marker({
                                                         position: myLatLng,
@@ -351,21 +356,18 @@
                                                         zIndex: place[3],
                                                         animation: google.maps.Animation.DROP
                                                 });
-
-                                                var contentString = "Some content";
-                                                google.maps.event.addListener(marker, "click", function() {
-                                                        infowindow.setContent(this.html);
-                                                        infowindow.open(map, this);
+						var infowindow = new google.maps.InfoWindow({
+							content: place[5]
+						});
+                                                marker.addListener("click", function() {
+                                                        infowindow.open(map, marker);
                                                 });
                                         }
                                 }
 
                                 google.maps.event.addDomListener(window, 'load', initialize);
                         </script>
-
-                        <a href="https://www.google.com/maps/d/embed?mid=1cenA5ZtQ0COPbzve9wEi4YJbwPw">
-                        <div id="map-canvas"></div>
-                      </a>
+			<div id="map-canvas"></div>
 		</section>
 
 		<!-- Gallery -->
