@@ -315,24 +315,26 @@
                                         map.mapTypes.set('map_style', styledMap);
                                         map.setMapTypeId('map_style');
 
-                                        setMarkers(map, weddingplaces,'images/map-marker.png' );
+                                        setMarkers(map, weddingplaces, infowindows);
                                 }
 
 
 
                                 var weddingplaces = [
                                         ['Illini Country Club (Rehearsal Dinner)', 39.78352,-89.68328,17, 
-					 'https://mt.googleapis.com/vt/icon/name=icons/onion/1085-biz-restaurant-generic.png&scale=1.0',
+					 'images/marker-restaurant.png',
 					 '<p>Illini Country Club</p><p>1601 Illini Rd, Springfield, IL 62704</p>'],
                                         ['Westminster Presbyterian Church (Wedding Ceremony)', 39.79664,-89.66418,17, 
-					 'https://mt.googleapis.com/vt/icon/name=icons/onion/1315-poi-religious-christian.png&scale=1.0',
+					 'images/marker-church.png',
 					 '<p>Westminster Presbyterian Church</p><p>533 S Walnut St, Springfield, IL 62704</p>'],
                                         ['Sangamo Club (Wedding Reception)', 39.80087,-89.65217, 17, 
-					 'https://mt.googleapis.com/vt/icon/name=icons/onion/1293-poi-music.png&scale=1.0',
+					 'inages/marker-music.png',
 					 '<p>Sangamo Club</p><p>227 E Adams St, Springfield, IL 62701</p>']
                                 ];
 
-                                function setMarkers(map, locations, markerpic) {
+				var infowindows = [];
+
+                                function setMarkers(map, locations, infowindows) {
                                         // Add markers to the map
                                         for (var i = 0; i < locations.length; i++) {
                                                 var place = locations[i];
@@ -356,11 +358,11 @@
                                                         zIndex: place[3],
                                                         animation: google.maps.Animation.DROP
                                                 });
-						var infowindow = new google.maps.InfoWindow({
+						infowindows[i] = new google.maps.InfoWindow({
 							content: place[5]
 						});
                                                 marker.addListener("click", function() {
-                                                        infowindow.open(map, marker);
+                                                        infowindows[i].open(map, marker);
                                                 });
                                         }
                                 }
