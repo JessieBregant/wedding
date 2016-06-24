@@ -315,7 +315,7 @@
                                         map.mapTypes.set('map_style', styledMap);
                                         map.setMapTypeId('map_style');
 
-                                        setMarkers(map, weddingplaces, infowindows);
+                                        setMarkers(map, weddingplaces, infowindows, markers);
                                 }
 
 
@@ -333,24 +333,19 @@
                                 ];
 
 				var infowindows = new Object();
-
-                                function setMarkers(map, locations, infowindows) {
+				var markers = new Object();
+                                function setMarkers(map, locations, infowindows, markers) {
                                         // Add markers to the map
                                         for (var i = 0; i < locations.length; i++) {
                                                 var place = locations[i];
                                         	var image = {
                                                 	url: place[4],
-                                                	// This marker is 42 pixels wide by 68 pixels tall.
-                                                	size: new google.maps.Size(21,34),
-                                                	// The origin for this image is 0,0.
-                                                	//origin: new google.maps.Point(0,0),
+                                                	size: new google.maps.Size(34,34),
                                                 	origin: null,
-                                                	// The anchor for this image is the base of the pin at 20,42.
-                                                	//anchor: new google.maps.Point(20, 42)
                                                 	anchor: null
                                         	};
                                                 var myLatLng = new google.maps.LatLng(place[1], place[2]);
-                                                var marker = new google.maps.Marker({
+                                                markers[i] new google.maps.Marker({
                                                         position: myLatLng,
                                                         map: map,
                                                         icon: image,
@@ -358,12 +353,14 @@
                                                         zIndex: place[3],
                                                         animation: google.maps.Animation.DROP
                                                 });
-						infowindows[marker[title]] = new google.maps.InfoWindow({
+						infowindows[i] = new google.maps.InfoWindow({
 							content: place[5]
 						});
-                                                marker.addListener("click", function() {
-                                                        infowindows[marker[title]].open(map, marker);
-                                                });
+                                                google.maps.event.addListener(markers[i], "click", function(innerKey) {
+							return function() {
+                                                        	infowindows[innerKey].open(map, markers[innerKey]);
+							}
+                                                }(i));
                                         }
                                 }
 
