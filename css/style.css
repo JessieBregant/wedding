@@ -33,12 +33,12 @@ h5,h6 {
 }
 
 h6 {
-	color: #190246;
+	color: #ffa78a;
 }
 
 a,
 button {
-	color: #946CE3;
+	color: #ffB399;
 	text-decoration: none;
 	transition: all .5s ease;
 	-moz-transition: all .5s ease;
@@ -47,7 +47,7 @@ button {
 }
 
 a:hover {
-	color: #D06CE3;
+	color: #FF8080;
 	text-decoration: none;
 }
 
@@ -142,7 +142,7 @@ img {
 .navbar-wedding {
 	border-radius: 0;
 	text-transform: uppercase;
-	background-color: #190246;
+	background-color: #333;
 	border: none;
 }
 
@@ -160,11 +160,11 @@ img {
 }
 
 .navbar-wedding a:hover{
-	background: #493276 !important;
+	background: #cccccc !important;
 }
 
 .navbar-wedding li a:focus {
-	background: #190246;
+	background: #333;
 }
 
 .navbar-wedding .navbar-brand {
@@ -202,7 +202,7 @@ section.darkgraysection {
 }
 
 .heading span {
-	color: #190246;
+	color: #ffa78a;
 }
 
 .mobile-divider {
@@ -404,7 +404,7 @@ section.darkgraysection {
 }
 
 #rsvp .btn {
-	background: #190246;
+	background: #ffa78a;
 	color: #fff;
 	margin-top: 20px;
 	padding-bottom: 20px;
