@@ -219,7 +219,7 @@ section.darkgraysection {
 }
 
 .hover-effect span {
-	background: #5a33a5;
+	background: #ffa78a;
 	color: #fff;
 	display: block;
 	height: 0;
@@ -306,8 +306,8 @@ section.darkgraysection {
 }
 
 .social-icons a:hover {
-	border: 1px solid #ff823e;
-	color: #ff823e;
+	border: 1px solid #ffa78a;
+	color: #ffa78a;
 }
 
 .social-icons span {
